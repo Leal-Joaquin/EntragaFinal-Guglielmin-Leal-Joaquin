@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../stylo.css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 id="statusMessage">Iniciar Sesión</h2>
+        <form id="loginForm">
+            <label for="username">Usuario:</label>
+            <input class="input" type="text" id="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input class="input" type="password" id="password" required onkeydown="checkEnter(event)">
+
+            <button type="button" onclick="login()">Iniciar Sesión</button>
+        </form>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

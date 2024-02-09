@@ -12,17 +12,14 @@ navToggle.addEventListener("click", function () {
 
 /*carrito de compras*/
 let PRODUCTOS = [
-  { id: 10001, nombre: "Toldos", precio: 10000, imagen: "./images/toldo.png" },
-  { id: 10002, nombre: "Pergolas", precio: 10000, imagen: "./images/pergola.png" },
-  { id: 90001, nombre: "Persianas Enrollables", precio: 10000, imagen: "./images/persiana_enrollable.png" },
-  { id: 90001, nombre: "Persianas Enrollables Premium", precio: 10000, imagen: "./images/persiana_enrollable_premium.png" },
-  { id: 90003, nombre: "Persianas Sheer Elegance", precio: 15000, imagen: "./images/sheers_elegance.png" },
-  { id: 90004, nombre: "Persianas Panel Japones", precio: 10000, imagen: "./images/persiana_panel_japones.png" },
-  { id: 90005, nombre: "Persiana Romana", precio: 10000, imagen: "./images/persiana_romana.png" },
-  { id: 90006, nombre: "Persianas dos en uno", precio: 10000, imagen: "./images/persiana_dosuno.png" },
-  { id: 90007, nombre: "Cortinas Verticales", precio: 10000, imagen: "./images/persiana_vertical.png" },
-  { id: 90008, nombre: "Cortinas Hanas", precio: 10000, imagen: "./images/cortina_hanas.png" },
-  { id: 90009, nombre: "Cortinas Personalizadas", precio: 10000, imagen: "./images/estampadas.png" },
+  { id: 10001, nombre: "Ibrik", precio: 5000, imagen: "./images/productos/1.jpeg" },
+  { id: 10002, nombre: "Aero Press", precio: 10000, imagen: "./images/productos/2.jpg" },
+  { id: 90001, nombre: "Sifon-Japones", precio: 10000, imagen: "./images/productos/3.jpg" },
+  { id: 90001, nombre: "Prensa Francesa", precio: 10000, imagen: "./images/productos/4.jpg" },
+  { id: 90003, nombre: "Chemex", precio: 15000, imagen: "./images/productos/5.jpg" },
+  { id: 90004, nombre: "Cafetera Italiana", precio: 10000, imagen: "./images/productos/6.jpeg" },
+  { id: 90005, nombre: "Filtros de café", precio: 10000, imagen: "./images/productos/7.jpeg " },
+  { id: 90006, nombre: "Molino", precio: 10000, imagen: "./images/productos/8.jpg" },
 ];
 
 const CARRITO = [];

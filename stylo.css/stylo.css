@@ -74,7 +74,6 @@ nav {
 }
 
 li:hover{
-  background-color: ;
   color: white;
 }
 
@@ -101,6 +100,7 @@ li:hover{
 
 .main-content {
  padding-top: 70px;
+ background-color: rgb(231, 229, 229);
 }
 
 .slider{
@@ -125,7 +125,10 @@ li:hover{
   opacity: 0.7;
 
 }
-
+.imagenes-carrusel{
+ width: 100%;
+ border-bottom: solid 2px black ;
+}
 
 .titulo-principal {
   text-shadow: 4px 4px 2px rgba(87,131,187,0.6);
@@ -174,16 +177,18 @@ li:hover{
   border: 2px solid rgb(0, 0, 0);
   width: 300px;
   flex:0 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 15px;
   padding: 10px;
   text-align: center;
   transition: transform 0.3s ease;
+  background-color: rgb(124, 124, 124);
+  border-radius: 15px;
 }
 
 .card:hover {
   transform: scale(1.1);
-  background-color: #ffffff3b;
+  background-color: #706e6e;
 }
 
 
@@ -238,11 +243,12 @@ padding-bottom: 25px;
 }
 
 .totalCarro {
+  padding: 5px;
   color: whitesmoke;
   text-align: center;
   font-size: 25px;
-  background-color: #4CAF50;
-  
+  background-color: #7375738c;
+  border: 1px solid black;
 }
 
 .finalCompra {
@@ -250,12 +256,16 @@ padding-bottom: 25px;
   justify-content: center;
 }
 #comprarBoton {
-  padding: 4px;
+  margin: 15px;
+  padding: 5px;
   color: #ffffff;
-  background-color: #45a049;
+  background-color: #3b3b3b;
   border-radius: 5px;
 }
-
+#comprarBoton:hover{
+  cursor: pointer;
+  transition: all 30ms ease;
+}
 .listaTareas {
   color: white;
   text-align: center;
@@ -269,21 +279,23 @@ padding-bottom: 25px;
 }
 
 .texto-contactanos {
+  border-top: solid 2px black;
   text-align: center;
   font-family: 'Long Cang', cursive;
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 8PX;
 }
 .parrafo-contactanos{
   text-align: center;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px 80px 0px 80px;
-
+  color: rgb(226, 224, 224);
 }
 
 .pie-caja {
   margin-top: 100px;
-  background-color: #4CAF50;
+  background-color: rgb(38, 38, 38);
 }
 
 .pie-pagina-completo {
@@ -292,7 +304,7 @@ padding-bottom: 25px;
   justify-content:  center;
   display: flex;
   gap: 30px;
-  background-color: #4CAF50;
+  background-color: rgb(53, 52, 52);
 }
 
 .iconos {
@@ -304,7 +316,7 @@ transition: transform 0.3s ease;
 }
 
 .derechos {
-  background-color: rgb(25, 99, 23);
+  background-color: rgb(38, 38, 38);
   margin-top: 8px;
   padding:10px 0px 10px 0px;
   text-align: center;
